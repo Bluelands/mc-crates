@@ -1,0 +1,30 @@
+---
+name: mc crates
+main: Bluelands\mc crates\mc crates\
+version: 2.0.7
+api:
+- 3.12.0
+load: POSTWORLD
+author: Bluelands
+softdepend:
+- 
+website: https://github.com/Bluelands\mc crates\
+permissions:
+  piggycrates:
+    default: false
+    description: Allows usage of all PiggyCrates features
+    children:
+      piggycrates.command:
+        default: op
+        description: Allow usage of all PiggyCrates commands
+        children:
+          piggycrates.command.crate:
+            default: op
+            description: Allow usage of the /crate command
+          piggycrates.command.key:
+            default: op
+            description: Allow usage of the /key command
+          piggycrates.command.keyall:
+            default: op
+            description: Allow usage of the /keyall command
+...

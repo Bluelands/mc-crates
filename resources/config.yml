@@ -1,0 +1,11 @@
+keys:
+  id: 131
+  meta: 0
+  name: "{CRATE} Key"
+  lore: "Claim rewards from a {CRATE} Crate just win one!"
+crates:
+  # Options: instant, roulette
+  mode: roulette
+  roulette:
+    duration: 30
+    speed: 2
